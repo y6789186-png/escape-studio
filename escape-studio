@@ -1,0 +1,36 @@
+
+<!doctype html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Escape Studio | חדרי בריחה</title>
+  <meta name="theme-color" content="#10172c">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="top">
+    <a class="brand" href="#home">
+      <span class="mark">✦</span>
+      ESCAPE <b>STUDIO</b>
+    </a>
+    <nav>
+      <a href="#home">בית</a>
+      <a href="#creator">אזור יוצרים</a>
+      <a href="#join">כניסה למשחק</a>
+      <a href="#settings">הגדרות</a>
+    </nav>
+    <span id="authStatus" class="status">לא מחובר</span>
+  </header>
+
+  <main id="app"></main>
+
+  <div id="toast" role="status" aria-live="polite"></div>
+
+  <footer>
+    Escape Studio • גרסת MVP עצמאית • נבנה בעברית
+  </footer>
+
+  <script type="module" src="app.js"></script>
+</body>
+</html>
